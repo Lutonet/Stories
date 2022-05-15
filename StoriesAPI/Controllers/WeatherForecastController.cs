@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace StoriesBackend.Controllers
+namespace StoriesAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]

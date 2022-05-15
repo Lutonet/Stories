@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "StoriesBackend": {
+    "StoriesAPI": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
@@ -8,7 +8,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "dotnetRunMessages": true,
-      "applicationUrl": "https://localhost:7137;http://localhost:5137"
+      "applicationUrl": "https://localhost:7048;http://localhost:5048"
     },
     "IIS Express": {
       "commandName": "IISExpress",
@@ -31,8 +31,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:30576",
-      "sslPort": 44345
+      "applicationUrl": "http://localhost:11392",
+      "sslPort": 44315
     }
   }
 }

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32505.426
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoriesBackend", "StoriesBackend\StoriesBackend.csproj", "{DC997D56-33EF-4962-A0E8-FD5AEB0C5054}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoriesAPI", "StoriesAPI\StoriesAPI.csproj", "{DE3334A9-4109-40DE-B48D-2DC4B412334F}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "storiesreact", "storiesreact\storiesreact.esproj", "{9C64272E-93F0-4925-8B93-CAB169BFC1C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DC997D56-33EF-4962-A0E8-FD5AEB0C5054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC997D56-33EF-4962-A0E8-FD5AEB0C5054}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DC997D56-33EF-4962-A0E8-FD5AEB0C5054}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DC997D56-33EF-4962-A0E8-FD5AEB0C5054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3334A9-4109-40DE-B48D-2DC4B412334F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3334A9-4109-40DE-B48D-2DC4B412334F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3334A9-4109-40DE-B48D-2DC4B412334F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3334A9-4109-40DE-B48D-2DC4B412334F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C64272E-93F0-4925-8B93-CAB169BFC1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C64272E-93F0-4925-8B93-CAB169BFC1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C64272E-93F0-4925-8B93-CAB169BFC1C7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9C64272E-93F0-4925-8B93-CAB169BFC1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C64272E-93F0-4925-8B93-CAB169BFC1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C64272E-93F0-4925-8B93-CAB169BFC1C7}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

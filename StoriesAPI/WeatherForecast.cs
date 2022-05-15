@@ -1,4 +1,4 @@
-namespace StoriesBackend
+namespace StoriesAPI
 {
     public class WeatherForecast
     {
